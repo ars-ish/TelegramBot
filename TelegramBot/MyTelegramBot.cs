@@ -13,7 +13,7 @@ namespace TelegramBot
     static class MyTelegramBot
     {
         private static string Token = "963348734:AAGb_uFqxSh0hi3ajgEYCWEelxwvU2nnlUE";
-        static public TelegramBotClient MyBotClient;
+        public static TelegramBotClient MyBotClient;
         private static string[] FilmsArray = {
             "Начало", "Остров проклятых", "Бойцовский клуб", "Однажды в Америке",
         "Гран Торино", "Бесславные ублюдки", "Интерстеллар", "Отступники"};
